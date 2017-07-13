@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1072A1811EDEBC1200A14915 /* UPnPActionInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072A1721EDEBC1200A14915 /* UPnPActionInterface.m */; };
+		1072A1821EDEBC1200A14915 /* UPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072A1741EDEBC1200A14915 /* UPnPDevice.m */; };
+		1072A1831EDEBC1200A14915 /* UPnPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072A1761EDEBC1200A14915 /* UPnPManager.m */; };
+		1072A1841EDEBC1200A14915 /* UPnPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072A1781EDEBC1200A14915 /* UPnPOperation.m */; };
+		1072A1851EDEBC1200A14915 /* UPnPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072A17A1EDEBC1200A14915 /* UPnPService.m */; };
+		1072A1861EDEBC1200A14915 /* PositionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072A17D1EDEBC1200A14915 /* PositionInfo.m */; };
+		1072A1871EDEBC1200A14915 /* AARemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1072A1801EDEBC1200A14915 /* AARemotePlayer.m */; };
+		109CAAB01ECD48820035D55A /* libupnp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109CAAAF1ECD48820035D55A /* libupnp.framework */; };
+		10EA56C31EC4087700036FCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EA56C21EC4087700036FCC /* main.m */; };
+		10EA56C61EC4087700036FCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EA56C51EC4087700036FCC /* AppDelegate.m */; };
+		10EA56C91EC4087700036FCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EA56C81EC4087700036FCC /* ViewController.m */; };
+		10EA56CC1EC4087700036FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EA56CA1EC4087700036FCC /* Main.storyboard */; };
+		10EA56CF1EC4087700036FCC /* AARemotePlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10EA56CD1EC4087700036FCC /* AARemotePlayer.xcdatamodeld */; };
+		10EA56D11EC4087700036FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EA56D01EC4087700036FCC /* Assets.xcassets */; };
+		10EA56D41EC4087700036FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10EA56D21EC4087700036FCC /* LaunchScreen.storyboard */; };
+		10EA56DF1EC4087700036FCC /* AARemotePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EA56DE1EC4087700036FCC /* AARemotePlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10EA56DB1EC4087700036FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10EA56B61EC4087700036FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10EA56BD1EC4087700036FCC;
+			remoteInfo = AARemotePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1072A1711EDEBC1200A14915 /* UPnPActionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPActionInterface.h; sourceTree = "<group>"; };
+		1072A1721EDEBC1200A14915 /* UPnPActionInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPnPActionInterface.m; sourceTree = "<group>"; };
+		1072A1731EDEBC1200A14915 /* UPnPDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPDevice.h; sourceTree = "<group>"; };
+		1072A1741EDEBC1200A14915 /* UPnPDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPnPDevice.m; sourceTree = "<group>"; };
+		1072A1751EDEBC1200A14915 /* UPnPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPManager.h; sourceTree = "<group>"; };
+		1072A1761EDEBC1200A14915 /* UPnPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPnPManager.m; sourceTree = "<group>"; };
+		1072A1771EDEBC1200A14915 /* UPnPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPOperation.h; sourceTree = "<group>"; };
+		1072A1781EDEBC1200A14915 /* UPnPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPnPOperation.m; sourceTree = "<group>"; };
+		1072A1791EDEBC1200A14915 /* UPnPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPService.h; sourceTree = "<group>"; };
+		1072A17A1EDEBC1200A14915 /* UPnPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPnPService.m; sourceTree = "<group>"; };
+		1072A17C1EDEBC1200A14915 /* PositionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionInfo.h; sourceTree = "<group>"; };
+		1072A17D1EDEBC1200A14915 /* PositionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionInfo.m; sourceTree = "<group>"; };
+		1072A17F1EDEBC1200A14915 /* AARemotePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AARemotePlayer.h; sourceTree = "<group>"; };
+		1072A1801EDEBC1200A14915 /* AARemotePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AARemotePlayer.m; sourceTree = "<group>"; };
+		109CAAAF1ECD48820035D55A /* libupnp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libupnp.framework; sourceTree = "<group>"; };
+		10EA56BE1EC4087700036FCC /* AARemotePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AARemotePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10EA56C21EC4087700036FCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10EA56C41EC4087700036FCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10EA56C51EC4087700036FCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10EA56C71EC4087700036FCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10EA56C81EC4087700036FCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10EA56CB1EC4087700036FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10EA56CE1EC4087700036FCC /* AARemotePlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AARemotePlayer.xcdatamodel; sourceTree = "<group>"; };
+		10EA56D01EC4087700036FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10EA56D31EC4087700036FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10EA56D51EC4087700036FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10EA56DA1EC4087700036FCC /* AARemotePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AARemotePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10EA56DE1EC4087700036FCC /* AARemotePlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AARemotePlayerTests.m; sourceTree = "<group>"; };
+		10EA56E01EC4087700036FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10EA56BB1EC4087700036FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109CAAB01ECD48820035D55A /* libupnp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10EA56D71EC4087700036FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1072A1701EDEBC1200A14915 /* ObjcWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				1072A1711EDEBC1200A14915 /* UPnPActionInterface.h */,
+				1072A1721EDEBC1200A14915 /* UPnPActionInterface.m */,
+				1072A1731EDEBC1200A14915 /* UPnPDevice.h */,
+				1072A1741EDEBC1200A14915 /* UPnPDevice.m */,
+				1072A1751EDEBC1200A14915 /* UPnPManager.h */,
+				1072A1761EDEBC1200A14915 /* UPnPManager.m */,
+				1072A1771EDEBC1200A14915 /* UPnPOperation.h */,
+				1072A1781EDEBC1200A14915 /* UPnPOperation.m */,
+				1072A1791EDEBC1200A14915 /* UPnPService.h */,
+				1072A17A1EDEBC1200A14915 /* UPnPService.m */,
+				1072A17B1EDEBC1200A14915 /* utilities */,
+			);
+			path = ObjcWrapper;
+			sourceTree = "<group>";
+		};
+		1072A17B1EDEBC1200A14915 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1072A17C1EDEBC1200A14915 /* PositionInfo.h */,
+				1072A17D1EDEBC1200A14915 /* PositionInfo.m */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		1072A17E1EDEBC1200A14915 /* RemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1072A17F1EDEBC1200A14915 /* AARemotePlayer.h */,
+				1072A1801EDEBC1200A14915 /* AARemotePlayer.m */,
+			);
+			path = RemotePlayer;
+			sourceTree = "<group>";
+		};
+		10EA56B51EC4087700036FCC = {
+			isa = PBXGroup;
+			children = (
+				10EA56C01EC4087700036FCC /* AARemotePlayer */,
+				10EA56DD1EC4087700036FCC /* AARemotePlayerTests */,
+				10EA56BF1EC4087700036FCC /* Products */,
+				10EA57041EC4090F00036FCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10EA56BF1EC4087700036FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10EA56BE1EC4087700036FCC /* AARemotePlayer.app */,
+				10EA56DA1EC4087700036FCC /* AARemotePlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10EA56C01EC4087700036FCC /* AARemotePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1072A1701EDEBC1200A14915 /* ObjcWrapper */,
+				1072A17E1EDEBC1200A14915 /* RemotePlayer */,
+				10EA56C41EC4087700036FCC /* AppDelegate.h */,
+				10EA56C51EC4087700036FCC /* AppDelegate.m */,
+				10EA56C71EC4087700036FCC /* ViewController.h */,
+				10EA56C81EC4087700036FCC /* ViewController.m */,
+				10EA56CA1EC4087700036FCC /* Main.storyboard */,
+				10EA56D01EC4087700036FCC /* Assets.xcassets */,
+				10EA56D21EC4087700036FCC /* LaunchScreen.storyboard */,
+				10EA56D51EC4087700036FCC /* Info.plist */,
+				10EA56CD1EC4087700036FCC /* AARemotePlayer.xcdatamodeld */,
+				10EA56C11EC4087700036FCC /* Supporting Files */,
+			);
+			path = AARemotePlayer;
+			sourceTree = "<group>";
+		};
+		10EA56C11EC4087700036FCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10EA56C21EC4087700036FCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10EA56DD1EC4087700036FCC /* AARemotePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				10EA56DE1EC4087700036FCC /* AARemotePlayerTests.m */,
+				10EA56E01EC4087700036FCC /* Info.plist */,
+			);
+			path = AARemotePlayerTests;
+			sourceTree = "<group>";
+		};
+		10EA57041EC4090F00036FCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				109CAAAF1ECD48820035D55A /* libupnp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10EA56BD1EC4087700036FCC /* AARemotePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10EA56E31EC4087700036FCC /* Build configuration list for PBXNativeTarget "AARemotePlayer" */;
+			buildPhases = (
+				10EA56BA1EC4087700036FCC /* Sources */,
+				10EA56BB1EC4087700036FCC /* Frameworks */,
+				10EA56BC1EC4087700036FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AARemotePlayer;
+			productName = AARemotePlayer;
+			productReference = 10EA56BE1EC4087700036FCC /* AARemotePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10EA56D91EC4087700036FCC /* AARemotePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10EA56E61EC4087700036FCC /* Build configuration list for PBXNativeTarget "AARemotePlayerTests" */;
+			buildPhases = (
+				10EA56D61EC4087700036FCC /* Sources */,
+				10EA56D71EC4087700036FCC /* Frameworks */,
+				10EA56D81EC4087700036FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10EA56DC1EC4087700036FCC /* PBXTargetDependency */,
+			);
+			name = AARemotePlayerTests;
+			productName = AARemotePlayerTests;
+			productReference = 10EA56DA1EC4087700036FCC /* AARemotePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10EA56B61EC4087700036FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Gavin Tsang";
+				TargetAttributes = {
+					10EA56BD1EC4087700036FCC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5C24WPGXV8;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					10EA56D91EC4087700036FCC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5C24WPGXV8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10EA56BD1EC4087700036FCC;
+					};
+				};
+			};
+			buildConfigurationList = 10EA56B91EC4087700036FCC /* Build configuration list for PBXProject "AARemotePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10EA56B51EC4087700036FCC;
+			productRefGroup = 10EA56BF1EC4087700036FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10EA56BD1EC4087700036FCC /* AARemotePlayer */,
+				10EA56D91EC4087700036FCC /* AARemotePlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10EA56BC1EC4087700036FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EA56D41EC4087700036FCC /* LaunchScreen.storyboard in Resources */,
+				10EA56D11EC4087700036FCC /* Assets.xcassets in Resources */,
+				10EA56CC1EC4087700036FCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10EA56D81EC4087700036FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10EA56BA1EC4087700036FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EA56C91EC4087700036FCC /* ViewController.m in Sources */,
+				10EA56C61EC4087700036FCC /* AppDelegate.m in Sources */,
+				1072A1831EDEBC1200A14915 /* UPnPManager.m in Sources */,
+				1072A1821EDEBC1200A14915 /* UPnPDevice.m in Sources */,
+				10EA56CF1EC4087700036FCC /* AARemotePlayer.xcdatamodeld in Sources */,
+				1072A1851EDEBC1200A14915 /* UPnPService.m in Sources */,
+				1072A1811EDEBC1200A14915 /* UPnPActionInterface.m in Sources */,
+				1072A1841EDEBC1200A14915 /* UPnPOperation.m in Sources */,
+				1072A1861EDEBC1200A14915 /* PositionInfo.m in Sources */,
+				10EA56C31EC4087700036FCC /* main.m in Sources */,
+				1072A1871EDEBC1200A14915 /* AARemotePlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10EA56D61EC4087700036FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10EA56DF1EC4087700036FCC /* AARemotePlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10EA56DC1EC4087700036FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10EA56BD1EC4087700036FCC /* AARemotePlayer */;
+			targetProxy = 10EA56DB1EC4087700036FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10EA56CA1EC4087700036FCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10EA56CB1EC4087700036FCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10EA56D21EC4087700036FCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10EA56D31EC4087700036FCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10EA56E11EC4087700036FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10EA56E21EC4087700036FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10EA56E41EC4087700036FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5C24WPGXV8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AARemotePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AA.cn.AARemotePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10EA56E51EC4087700036FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5C24WPGXV8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AARemotePlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AA.cn.AARemotePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10EA56E71EC4087700036FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5C24WPGXV8;
+				INFOPLIST_FILE = AARemotePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AA.cn.AARemotePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AARemotePlayer.app/AARemotePlayer";
+			};
+			name = Debug;
+		};
+		10EA56E81EC4087700036FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5C24WPGXV8;
+				INFOPLIST_FILE = AARemotePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AA.cn.AARemotePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AARemotePlayer.app/AARemotePlayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10EA56B91EC4087700036FCC /* Build configuration list for PBXProject "AARemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10EA56E11EC4087700036FCC /* Debug */,
+				10EA56E21EC4087700036FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10EA56E31EC4087700036FCC /* Build configuration list for PBXNativeTarget "AARemotePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10EA56E41EC4087700036FCC /* Debug */,
+				10EA56E51EC4087700036FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10EA56E61EC4087700036FCC /* Build configuration list for PBXNativeTarget "AARemotePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10EA56E71EC4087700036FCC /* Debug */,
+				10EA56E81EC4087700036FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10EA56CD1EC4087700036FCC /* AARemotePlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10EA56CE1EC4087700036FCC /* AARemotePlayer.xcdatamodel */,
+			);
+			currentVersion = 10EA56CE1EC4087700036FCC /* AARemotePlayer.xcdatamodel */;
+			path = AARemotePlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10EA56B61EC4087700036FCC /* Project object */;
+}
